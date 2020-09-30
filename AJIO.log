@@ -1,0 +1,88 @@
+2020-09-30 15:32:17,282 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:32:18,335 DEBUG [main] Logger:22 - Click Sign In / Join AJIO
+2020-09-30 15:32:21,609 DEBUG [main] Logger:27 - Click - Sign in with Google
+2020-09-30 15:32:21,610 DEBUG [main] Logger:29 - Switching to the newly opened window to initialize Login
+2020-09-30 15:32:31,851 DEBUG [main] Logger:40 - Enter the Username and Password
+2020-09-30 15:32:41,937 DEBUG [main] Logger:46 - Switch back to the parent window
+2020-09-30 15:33:01,584 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:33:49,516 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:34:30,920 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:35:27,031 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:36:29,246 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:37:06,678 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:37:44,525 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:38:19,096 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:39:31,191 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:40:34,660 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:41:09,075 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:41:47,337 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:42:32,678 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:42:33,165 DEBUG [main] Logger:22 - Click Sign In / Join AJIO
+2020-09-30 15:42:34,889 DEBUG [main] Logger:27 - Click - Sign in with Google
+2020-09-30 15:42:34,889 DEBUG [main] Logger:29 - Switching to the newly opened window to initialize Login
+2020-09-30 15:42:42,290 DEBUG [main] Logger:40 - Enter the Username and Password
+2020-09-30 15:42:52,329 DEBUG [main] Logger:46 - Switch back to the parent window
+2020-09-30 15:43:44,053 DEBUG [main] Logger:95 - Opening the Website
+2020-09-30 15:43:48,007 DEBUG [main] Logger:22 - Click Sign In / Join AJIO
+2020-09-30 15:43:49,706 DEBUG [main] Logger:27 - Click - Sign in with Google
+2020-09-30 15:43:49,706 DEBUG [main] Logger:29 - Switching to the newly opened window to initialize Login
+2020-09-30 15:43:56,943 DEBUG [main] Logger:40 - Enter the Username and Password
+2020-09-30 15:44:07,121 DEBUG [main] Logger:46 - Switch back to the parent window
+2020-09-30 15:44:48,148 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-30 15:44:48,150 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-09-30 15:44:48,157 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-09-30 15:44:48,159 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-09-30 15:44:48,727 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-30 15:44:48,728 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-09-30 15:44:48,732 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-09-30 15:44:48,733 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-09-30 15:44:48,742 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-30 15:44:48,743 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-09-30 15:44:48,746 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-09-30 15:44:48,747 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-09-30 15:44:48,783 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-30 15:44:48,785 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-09-30 15:44:48,788 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-09-30 15:44:48,789 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-09-30 15:44:48,821 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-30 15:44:48,822 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-09-30 15:44:48,823 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-09-30 15:44:48,824 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-09-30 15:44:48,860 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-30 15:44:48,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-09-30 15:44:48,862 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-09-30 15:44:48,863 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-09-30 15:44:48,936 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:48,943 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:48,950 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:48,965 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:48,971 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:48,974 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:48,978 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:48,984 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:48,998 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:49,001 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:49,004 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:49,008 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:49,011 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:49,015 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-30 15:44:49,017 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-30 15:44:49,018 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-09-30 15:44:49,020 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-09-30 15:44:49,020 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-09-30 15:44:49,032 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-30 15:44:49,034 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2020-09-30 15:44:49,038 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2020-09-30 15:44:49,038 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2020-09-30 15:44:49,061 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-30 15:44:49,063 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-09-30 15:44:49,070 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-09-30 15:44:49,074 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-09-30 15:44:49,087 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-30 15:44:49,089 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-09-30 15:44:49,090 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-09-30 15:44:49,090 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-09-30 15:44:49,161 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-30 15:44:49,163 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-09-30 15:44:49,166 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-09-30 15:44:49,166 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

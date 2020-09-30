@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utilities.ListenerTest"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="AJIO_WebSiteTesting">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestScripts.TC_AJ_001"> </class>
+            <class name="TestScripts.TC_AJ_002"> </class>
+            <class name="TestScripts.TC_AJ_003"> </class>
+            <class name="TestScripts.TC_AJ_004"> </class>
+            <class name="TestScripts.TC_AJ_005"> </class>
+            <class name="TestScripts.TC_AJ_006"> </class>
+            <class name="TestScripts.TC_AJ_007"> </class>
+            <class name="TestScripts.TC_AJ_008"> </class>
+            <class name="TestScripts.TC_AJ_009"> </class>
+            <class name="TestScripts.TC_AJ_010"> </class>
+            <class name="TestScripts.TC_AJ_011"> </class>
+            <class name="TestScripts.TC_AJ_012"> </class>
+            <class name="TestScripts.TC_AJ_013"> </class>
+            <class name="TestScripts.TC_AJ_014"> </class>
+            <class name="TestScripts.TC_AJ_015"> </class>
+        </classes>
+    </test>
+</suite>
