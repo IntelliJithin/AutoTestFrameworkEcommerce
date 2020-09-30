@@ -57,7 +57,7 @@ public class AjioLogin_DataProvider {
     @DataProvider(name = "AjioData_TC_000")
     Object[][] getData7(){
         return new String[][]{
-                {"Tops"}
+                {"T Shirt"}
         };
     }
 }

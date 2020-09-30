@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class TC_AJ_005 extends BaseClass {
 
     @Test(dataProvider = "AjioData_TC_000", dataProviderClass = AjioLogin_DataProvider.class)
-    public void checkMyBagCount(String ITEM) throws InterruptedException {
+    public void checkMyBagCount( String ITEM) throws InterruptedException {
 
         ItemsPage itemsPage = new ItemsPage(driver);
         CommonMethods commonMethods = new CommonMethods(driver);

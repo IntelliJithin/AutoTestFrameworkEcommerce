@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ItemsPage extends BaseClass {
 
-    @FindBy(xpath = "//div[text()='T shirt']")
+    @FindBy(xpath = "//div[text()='T Shirt']")
     private WebElement txt_itemTitle;
     @FindBy(xpath = "//div[@id='products']/div[3]/div/div/div[1]")
     private WebElement item;
@@ -79,10 +79,9 @@ public class ItemsPage extends BaseClass {
         getCart.click();
     }
 
-    public void mouseActionToSelectSpecification() {
+    public void mouseActionToSelectSpecification() throws InterruptedException {
         Actions actions = new Actions(driver);
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOf(item));
+        Thread.sleep(5000);
         actions.moveToElement(item);
         actions.moveToElement(popUp);
         actions.click().build().perform();
