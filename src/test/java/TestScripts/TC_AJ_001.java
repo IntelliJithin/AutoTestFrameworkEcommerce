@@ -15,7 +15,7 @@ public class TC_AJ_001 extends BaseClass {
         HomePage homePage = new HomePage(driver);
         CommonMethods commonMethods = new CommonMethods(driver);
 
-        test = extent.createTest("TC_AJ_001 - Login Verification");
+        test = extent.createTest("TC_AJ_001 - Login Verification......");
 
         commonMethods.login(EMAIL, PASSWORD); //login method
 
