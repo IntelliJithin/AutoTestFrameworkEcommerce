@@ -84,6 +84,9 @@ public class ItemsPage extends BaseClass {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(item));
         actions.moveToElement(item);
+        
+        WebDriverWait wait1 = new WebDriverWait(driver, 10);
+        wait1.until(ExpectedConditions.elementToBeClickable(popUp));
         actions.moveToElement(popUp);
         actions.click().build().perform();
     }
