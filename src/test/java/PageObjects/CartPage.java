@@ -234,6 +234,8 @@ public class CartPage extends BaseClass
     }
 
     public double verifyPrice() {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOf(priceForOne));
         String iP = priceForOne.getText();
       /*  System.out.println("iP: "+iP);
         Pattern pattern = Pattern.compile("\\d+");
@@ -274,6 +276,8 @@ public class CartPage extends BaseClass
     }
 
     public int bagCount(){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOf(txt_noOfItems));
         String myBagCount = txt_noOfItems.getText();
         String[] parts = myBagCount.split("");
         String myBC = parts[1];

@@ -1,10 +1,7 @@
 package PageObjects;
 
 import Commons.BaseClass;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -66,7 +63,9 @@ public class ShippingPage extends BaseClass {
 
     public void clickAddShippingAddress()
     {
-        shippingAddress.click();
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].click();", shippingAddress);
+        //shippingAddress.click();
     }
     public void addName(String name) {
         txt_name.clear();

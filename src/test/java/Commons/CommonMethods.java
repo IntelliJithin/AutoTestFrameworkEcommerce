@@ -47,8 +47,7 @@ public class CommonMethods extends BaseClass {
 
     }
 
-    public void searchFunctionality(String item)
-    {
+    public void searchFunctionality(String item) throws InterruptedException {
         HomePage homePage = new HomePage(driver);
         homePage.setSearch_bar(item);
         test.log(Status.INFO, "Entered the item name: "+item);

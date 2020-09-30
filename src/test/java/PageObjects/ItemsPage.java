@@ -1,6 +1,7 @@
 package PageObjects;
 
 import Commons.BaseClass;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -50,7 +51,7 @@ public class ItemsPage extends BaseClass {
         return popUp;
     }
 
-    public void sizeSelectandAddToCart() {
+    public void sizeSelectandAddToCart() throws InterruptedException {
 
         /*if (txt_sizeXS.isEnabled()){
             txt_sizeXS.click();
@@ -71,20 +72,24 @@ public class ItemsPage extends BaseClass {
         }*/
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.elementToBeClickable(txt_sizeM));
+        //Thread.sleep(5000);
         txt_sizeM.click();
         txt_addToCart.click();
     }
 
     public void viewCart() {
-        getCart.click();
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].click();", getCart);
+        //getCart.click();
     }
 
     public void mouseActionToSelectSpecification() throws InterruptedException {
         Actions actions = new Actions(driver);
-        Thread.sleep(5000);
         actions.moveToElement(item);
-        actions.moveToElement(popUp);
-        actions.click().build().perform();
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].click();", popUp);
+        //actions.moveToElement(popUp);
+        //actions.click().build().perform();
     }
 
     public String cartConfirmation() {

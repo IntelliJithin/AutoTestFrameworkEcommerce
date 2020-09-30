@@ -45,12 +45,13 @@ public class HomePage extends BaseClass
         return true;
     }
 
-    public void setSearch_bar(String item)
-    {
+    public void setSearch_bar(String item) throws InterruptedException {
+        Thread.sleep(5000);
         search_bar.sendKeys(item);
     }
     public void setSubmit_button()
     {
+
         submit_button.click();
     }
 }
