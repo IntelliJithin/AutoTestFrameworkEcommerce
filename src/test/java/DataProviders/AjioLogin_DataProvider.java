@@ -7,7 +7,7 @@ public class AjioLogin_DataProvider {
     @DataProvider(name = "AjioLoginData")
     Object[][] getData1(){
         return new String[][]{
-                {"jithinravindran8@gmail.com", "chaithram", "T-shirt", "Jithin Ravindran",
+                {"username@gmail.com", "passwword", "T-shirt", "Jithin Ravindran",
                  "+911234567890", "680008", "street", "homename"}
         };
     }
@@ -15,7 +15,7 @@ public class AjioLogin_DataProvider {
     @DataProvider(name = "AjioEditedData")
     Object[][] getData2(){
         return new String[][]{
-                {"jithinravindran8@gmail.com", "chaithram", "T-shirt", "streetEdited", "homenameEdited"}
+                {"username@gmail.com", "password", "T-shirt", "streetEdited", "homenameEdited"}
         };
     }
 
@@ -43,7 +43,7 @@ public class AjioLogin_DataProvider {
     @DataProvider(name = "AjioLogin")
     Object[][] getData5(){
         return new String[][]{
-                {"jithinravindran8@gmail.com", "chaithram"}
+                {"username@gmail.com", "password"}
         };
     }
 
